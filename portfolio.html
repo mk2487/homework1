@@ -4,55 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f3f4f6;
-            color: #1f2937;
+                body {
+                        font-family: 'Inter', sans-serif;
+                        background-color: #f3f4f6;
+                        color: #1f2937;
+
         }
+
+
     </style>
 </head>
 <body class="p-4 sm:p-8 md:p-12">
     <div class="max-w-4xl mx-auto bg-white p-6 sm:p-10 rounded-xl shadow-lg">
 
-        <!-- Step 2: Heading and Subheading -->
         <header class="text-center mb-10">
             <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight">Marcell Kapas</h1>
             <h2 class="text-xl sm:text-2xl font-semibold text-blue-600 mt-2"><mark class="bg-blue-200 rounded-sm">CS212 Web Developer</mark> & Data Enthusiast</h2>
         </header>
 
-        <!-- Step 3: Introduction Paragraph -->
         <section class="mb-10">
             <h3 class="text-2xl font-bold text-gray-800 mb-4">About Me</h3>
             <p class="text-gray-600 leading-relaxed text-lg">
-                Hi, my name is Marcell Kapas. I am an informatics Major here at Nau!
+                Hi, my name is Marcell Kapas. I am an informatics Major here at NAU. I am passionate about turning <del>ideas</del> <ins>complex problems</ins> into practical solutions.
             </p>
         </section>
 
-        <!-- Step 4: Skills Section -->
         <section class="mb-10">
             <h3 class="text-2xl font-bold text-gray-800 mb-4">My Skills</h3>
             <div class="bg-gray-100 p-6 rounded-lg shadow-inner">
                 <ul class="list-disc list-inside space-y-2 text-lg">
                     <li><strong class="font-bold text-gray-900">Communication:</strong> Extremely effective communicator, easily able to work with peers</li>
-                    <li><strong class="font-bold text-gray-900">Adaptabe:</strong> Able to adapat to siutations easily</li>
+                    <li><strong class="font-bold text-gray-900">Adaptable:</strong> Able to adapt to situations easily</li>
                     <li><strong class="font-bold text-gray-900">Passionate about CS:</strong> Very motivated about the CS program here at NAU</li>
                 </ul>
             </div>
         </section>
 
-        <!-- Step 6: Education and Experience -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">My Projects</h3>
+            <div class="space-y-6">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-inner">
+                    <h4 class="text-xl font-bold text-gray-900 mb-2">Password Guesser <small>(Python)</small></h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        Created a project at home regarding passwords using Python. It utilized only lower case/upper case letters, as well as all numbers, to guess the prompted password; it did this via <mark>brute force</mark>.
+                    </p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-inner">
+                    <h4 class="text-xl font-bold text-gray-900 mb-2">Hangman <small>(Python)</small></h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        Created a Python project about the Hangman game. The system generates a random word that the user has to guess. Every time they guess a letter right, it is filled in. If they guess wrong too many times, you fail the game.
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <section class="mb-10">
             <h3 class="text-2xl font-bold text-gray-800 mb-4">Education & Experience</h3>
             <div class="space-y-6">
-                <!-- Education -->
                 <div class="bg-gray-100 p-6 rounded-lg shadow-inner">
                     <h4 class="text-xl font-bold text-gray-900 mb-1">Bachelor of Informatics in Computer Science</h4>
                     <p class="text-gray-600"><em>Northern Arizona University. 2023 - PRESENT</em></p>
                 </div>
-                <!-- Experience -->
                 <div class="bg-gray-100 p-6 rounded-lg shadow-inner">
                     <h4 class="text-xl font-bold text-gray-900 mb-1">A Variety of CS and INF classes at NAU</h4>
                     <p class="text-gray-600 leading-relaxed mt-2">
@@ -62,14 +76,12 @@
             </div>
         </section>
 
-        <!-- Step 7: Contact Information -->
         <section class="text-center">
             <h3 class="text-2xl font-bold text-gray-800 mb-4">Get In Touch</h3>
             <div class="bg-gray-100 p-6 rounded-lg shadow-inner inline-block">
                 <ul class="list-none space-y-2 text-lg">
                     <li><a href="mailto:mk2487@nau.edu" class="text-blue-600 hover:underline">mk2487@nau.edu</a></li>
-                    <li><a href="https://linkedin.com/in/janedoe" target="_blank" class="text-blue-600 hover:underline">LinkedIn</a></li>
-                    <li><a href="https://github.com/janedoe" target="_blank" class="text-blue-600 hover:underline">GitHub</a></li>
+                    <li><a href="https://github.com/mk2487" target="_blank" class="text-blue-600 hover:underline">GitHub</a></li>
                 </ul>
             </div>
         </section>
